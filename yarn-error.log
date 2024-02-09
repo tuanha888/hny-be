@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\footb\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\footb\scoop\apps\git\2.34.1.windows.1\mingw64\bin;C:\Users\footb\scoop\apps\git\2.34.1.windows.1\usr\bin;C:\Users\footb\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Cloudflare\Cloudflare WARP;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.1\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Users\footb\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\Program Files\nodejs;C:\Users\footb\anaconda3;C:\Users\footb\anaconda3\Library\mingw-w64\bin;C:\Users\footb\anaconda3\Library\usr\bin;C:\Users\footb\anaconda3\Library\bin;C:\Users\footb\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\footb\scoop\apps\python\current\Scripts;C:\Users\footb\scoop\apps\python\current;C:\Users\footb\scoop\shims;C:\Users\footb\AppData\Local\Microsoft\WindowsApps;C:\cmake-3.22.1-windows-x86_64\bin;C:\msys64\usr\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Msbuild\Current\Bin;C:\NewMinGW\mingw64\bin;C:\NewMinGW\mingw32\bin;C:\MinGW\mingw64\bin;C:\msys64\mingw64\bin;C:\Users\footb\scoop\apps\git\2.34.1.windows.1\usr\bin;C:\Users\footb\.dotnet\tools;C:\PHP;E:\Program Files (x86);E:\Program Files;E:\;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\sqlite;C:\Program Files\Docker\Docker\resources;C:\Program Files\Docker\Docker;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Azure Data Studio\bin;C:\Users\footb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\footb\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\footb\go\bin;C:\Users\footb\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.1\bin;C:\Users\footb\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\footb\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:519:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+      at ReadStream.emit (node:events:519:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:559:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
